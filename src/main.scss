@@ -1,0 +1,16 @@
+@import "folder/main";
+
+$icon-list: (
+    icon1: "\f000",
+    icon2: "\f001"
+);
+
+@each $icon, $codepoint in $icon-list {
+    .icon-#{$icon}:before {
+        content: $codepoint;
+    }
+}
+
+.selector3 {
+    @include some-mixin;
+}

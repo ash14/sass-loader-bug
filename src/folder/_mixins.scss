@@ -1,0 +1,5 @@
+@mixin some-mixin {
+	&.something {
+		color: blue;
+	}
+}

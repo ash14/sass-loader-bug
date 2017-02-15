@@ -1,0 +1,18 @@
+{
+  "name": "sass-loader-bug",
+  "version": "1.0.0",
+  "description": "test case for https://github.com/jtangelder/sass-loader/issues/351",
+  "scripts": {
+    "testcase": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-rc.3",
+    "node-sass": "4.5.0",
+    "sass-loader": "6.0.0",
+    "style-loader": "0.13.1",
+    "webpack": "2.2.1"
+  }
+}
